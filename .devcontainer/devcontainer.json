@@ -1,0 +1,14 @@
+{
+    "name": "Rust Dev Container",
+    "dockerComposeFile": [
+        "./docker-compose.yml"
+    ],
+    "service": "vscode",
+    "runServices": [
+        "vscode"
+    ],
+    "remoteUser": "developer",
+    "shutdownAction": "stopCompose",
+    "postCreateCommand": "~/.start.sh",
+    "workspaceFolder": "/workspace"
+}
