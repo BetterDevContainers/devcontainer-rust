@@ -8,4 +8,4 @@ This is a development container for Rust projects. It is based on the `BetterDev
 
 ## Image Recipe
 
-Rust - <i>configured to share host config</i>
+Rust
